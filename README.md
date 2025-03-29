@@ -1,3 +1,5 @@
+![](https://github.com/NeoSahadeo/ImageToACSII/blob/main/screenshots/Castle.png?raw=true)
+
 # Python image to ASCII
 
 A very simple Python script that converts an inputed image into it's ASCII output based on brightness.
