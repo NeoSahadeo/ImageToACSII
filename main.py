@@ -65,7 +65,9 @@ if __name__ == "__main__":
     parser.add_argument("--scale", help="Resize-Scale for the image (Default: 1)")
     args = parser.parse_args()
 
-    SIZE_SCALE = float(args.scale) or 1
+    SIZE_SCALE = 1
+    if args.scale:
+        SIZE_SCALE = float(args.scale)
 
     PATH = pathlib.Path(args.imagePath)
 
